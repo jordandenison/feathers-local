@@ -29,6 +29,12 @@ This project uses [Feathers](http://feathersjs.com). An open source framework fo
    git checkout service-authentication-issues
    ```
 
+5. Install additional deps if needed
+
+   ```
+   docker exec feathers-local-backend-1 npm install
+   ```
+
 ## Testing
 
 Run `npm test` and all your tests in the `test/` directory will be run.
