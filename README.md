@@ -8,7 +8,8 @@ This project uses [Feathers](http://feathersjs.com). An open source framework fo
 
 ## Getting Started
 
-1. Make sure you have [NodeJS](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
+1. Make sure you have [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/) installed.
+
 2. Run with docker compose
 
    ```
@@ -20,6 +21,12 @@ This project uses [Feathers](http://feathersjs.com). An open source framework fo
 
    ```
    docker exec feathers-local-backend-1 npm run migrate
+   ```
+
+4. Checkout a branch
+
+   ```
+   git checkout service-authentication-issues
    ```
 
 ## Testing
