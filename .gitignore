@@ -1,0 +1,19 @@
+data/*
+!data/.keep
+registry/*
+!registry/.keep
+node_modules
+ssl/*
+u.sh
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+.terraformrc
+terraform.rc
+id_rsa
+id_rsa.pub

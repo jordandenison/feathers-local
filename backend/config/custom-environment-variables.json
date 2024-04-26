@@ -1,0 +1,14 @@
+{
+  "port": {
+    "__name": "PORT",
+    "__format": "number"
+  },
+  "host": "HOSTNAME",
+  "authentication": {
+    "secret": "FEATHERS_SECRET"
+  },
+  "init": {
+    "backend": "INIT_BACKEND",
+    "service": "INIT_SERVICE"
+  }
+}
