@@ -11,7 +11,7 @@
   },
   "postgresql": {
     "client": "pg",
-    "connection": "postgres://feathers:feathers@localhost:5432/feathers"
+    "connection": "postgres://feathers:feathers@postgres:5432/feathers"
   },
   "authentication": {
     "entity": "user",
