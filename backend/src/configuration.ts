@@ -12,7 +12,8 @@ export const configurationSchema = Type.Intersect([
     init: Type.Object({
       backend: Type.Optional(Type.String()),
       service: Type.Optional(Type.String())
-    })
+    }),
+    serviceToken: Type.String()
   })
 ])
 

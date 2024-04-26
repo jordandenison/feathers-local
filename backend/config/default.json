@@ -18,7 +18,8 @@
     "service": "users",
     "secret": "kaMuQddzAcGbziwOTeKFHhY3A9zuGtDX",
     "authStrategies": [
-      "jwt"
+      "jwt",
+      "service"
     ],
     "jwtOptions": {
       "header": {

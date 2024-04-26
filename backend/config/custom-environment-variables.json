@@ -10,5 +10,6 @@
   "init": {
     "backend": "INIT_BACKEND",
     "service": "INIT_SERVICE"
-  }
+  },
+  "serviceToken": "SERVICE_TOKEN"
 }
